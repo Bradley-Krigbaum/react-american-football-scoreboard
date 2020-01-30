@@ -113,10 +113,23 @@
   justify-content: space-around;
 }
 
+.quarter__buttons,
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+}
+
+.quarter__buttons__container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 3%;
+}
+
+.quarter__text {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
